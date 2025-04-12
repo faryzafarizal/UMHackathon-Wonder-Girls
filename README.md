@@ -8,7 +8,7 @@ Problem Statement : Alpha Strategies Using HMM or ML
 * Our group objective is to find correlations of hidden market features to predict future market behavior.
 
 ## Prototype (conceptual diagram)
-Refer to [Conceptual diagram and planning](https://github.com/faryzafarizal/UMHackathon-Wonder-Girls/blob/c30648358f72951d36c177e970f84e3d2ecb8326/prototype/conceptual_diagram.md)
+Please refer to [Conceptual diagram and planning](https://github.com/faryzafarizal/UMHackathon-Wonder-Girls/blob/c30648358f72951d36c177e970f84e3d2ecb8326/prototype/conceptual_diagram.md)
 
 ## Data Preprocessing and Feature Engineering Codes
-Refer to [Codes]()
+Please refer to [Codes](https://github.com/faryzafarizal/UMHackathon-Wonder-Girls/tree/a65b163f326b402db3982e3aaa1f49b50a69d17a/codes)
