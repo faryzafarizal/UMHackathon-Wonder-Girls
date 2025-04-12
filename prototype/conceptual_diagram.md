@@ -17,6 +17,7 @@
 - Calculates Miner Sell Ratio.  
 
 ### Refer to [Preprocessing Data and Feature Engineering](https://github.com/faryzafarizal/UMHackathon-Wonder-Girls/tree/336d81f9a94ac7a6784e87e5e0c190d274ccae35/codes)
+Fetching data from CryptoQuant, cleaning data, data transformation and features engineering are processed through codes.
 
 ### Model Training:
 - Uses a Gaussian Hidden Markov Model (HMM).
