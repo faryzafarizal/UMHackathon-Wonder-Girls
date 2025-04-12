@@ -9,3 +9,6 @@ Problem Statement : Alpha Strategies Using HMM or ML
 
 ## Prototype (conceptual diagram)
 Refer to [Conceptual diagram and planning](https://github.com/faryzafarizal/UMHackathon-Wonder-Girls/blob/c30648358f72951d36c177e970f84e3d2ecb8326/prototype/conceptual_diagram.md)
+
+## Data Preprocessing and Feature Engineering Codes
+Refer to [Codes]()
