@@ -10,13 +10,13 @@ Conceptual Diagram for Bitcoin Trading Strategy
        |                               +---------------------+
        +------------------------------| Feature Engineering |-----------------+
                                        +---------------------+                 |
-                                                  |                 |
-                                                  v                 v
+                                                  |                            |
+                                                  v                            v
                                        +---------------------+     +---------------------+
                                        | Hidden Markov Model  |---->| Trading Signals     |
                                        +---------------------+     +---------------------+
-                                                  |                 |
-                                                  v                 v
+                                                  |                            |
+                                                  v                            v
                                        +---------------------+     +---------------------+
                                        | Backtesting          |---->| Performance Metrics |
                                        +---------------------+     +---------------------+
@@ -26,6 +26,7 @@ Conceptual Diagram for Bitcoin Trading Strategy
                                        | Visualization        |
                                        +---------------------+
 
+#
 
 Data Acquisition:
 - Fetches data from CryptoQuant via CyboTrade API.
