@@ -1,31 +1,6 @@
 
 # Conceptual Diagram for Bitcoin Trading Strategy
-
-+---------------------+     +---------------------+     +---------------------+
-| Data Acquisition     |---->| Data Preprocessing  |---->| Model Training       |
-+---------------------+     +---------------------+     +---------------------+
-       ^                                   |                 |
-       |                                   v                 v
-       |                               +---------------------+
-       +------------------------------| Feature Engineering |-----------------+
-                                       +---------------------+                 |
-                                                  |                            |
-                                                  v                            v
-                                       +---------------------+     +---------------------+
-                                       | Hidden Markov Model  |---->| Trading Signals     |
-                                       +---------------------+     +---------------------+
-                                                  |                            |
-                                                  v                            v
-                                       +---------------------+     +---------------------+
-                                       | Backtesting          |---->| Performance Metrics |
-                                       +---------------------+     +---------------------+
-                                                  |
-                                                  v
-                                       +---------------------+
-                                       | Visualization        |
-                                       +---------------------+
-
-#
+![Conceptual Diagram](
 
 Data Acquisition:
 - Fetches data from CryptoQuant via CyboTrade API.
