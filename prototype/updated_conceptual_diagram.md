@@ -1,6 +1,5 @@
-# prompt: give me the conceptual diagram for this model
 
-Conceptual Diagram for Bitcoin Trading Strategy
+# Conceptual Diagram for Bitcoin Trading Strategy
 
 +---------------------+     +---------------------+     +---------------------+
 | Data Acquisition     |---->| Data Preprocessing  |---->| Model Training       |
