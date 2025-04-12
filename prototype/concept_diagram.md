@@ -1,6 +1,6 @@
 # Concept diagram for Alpha Strategies using HMM
 
-
+![Concept Diagram](https://github.com/faryzafarizal/UMHackathon-Wonder-Girls/blob/e004c7f06db92aee074eda6a507261c181580435/prototype/conceptual_diagram.png)
 
 
 ### Data Sources: CryptoQuant
