@@ -1,6 +1,6 @@
 
 # Conceptual Diagram for Bitcoin Trading Strategy
-![Conceptual Diagram](
+![Conceptual Diagram](https://github.com/faryzafarizal/UMHackathon-Wonder-Girls/blob/00d5db2ba8f46e918a92309858a4050be966fc03/prototype/updated_diagram.png)
 
 Data Acquisition:
 - Fetches data from CryptoQuant via CyboTrade API.
