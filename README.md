@@ -14,4 +14,4 @@ Please refer to [Conceptual diagram and planning](https://github.com/faryzafariz
 Please refer to [Codes](https://github.com/faryzafarizal/UMHackathon-Wonder-Girls/tree/a65b163f326b402db3982e3aaa1f49b50a69d17a/codes)
 
 ## Slides
-Link to the slide: https://drive.google.com/drive/folders/1VFjOtyy6nAUdXwkQ-nfLsD-bSKldj3ym?usp=sharing
+Link to the slide: [Slide Presentation](https://drive.google.com/drive/folders/1VFjOtyy6nAUdXwkQ-nfLsD-bSKldj3ym?usp=sharing)
