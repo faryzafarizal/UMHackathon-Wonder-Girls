@@ -1,0 +1,62 @@
+# prompt: give me the conceptual diagram for this model
+
+Conceptual Diagram for Bitcoin Trading Strategy
+
++---------------------+     +---------------------+     +---------------------+
+| Data Acquisition     |---->| Data Preprocessing  |---->| Model Training       |
++---------------------+     +---------------------+     +---------------------+
+       ^                                   |                 |
+       |                                   v                 v
+       |                               +---------------------+
+       +------------------------------| Feature Engineering |-----------------+
+                                       +---------------------+                 |
+                                                  |                 |
+                                                  v                 v
+                                       +---------------------+     +---------------------+
+                                       | Hidden Markov Model  |---->| Trading Signals     |
+                                       +---------------------+     +---------------------+
+                                                  |                 |
+                                                  v                 v
+                                       +---------------------+     +---------------------+
+                                       | Backtesting          |---->| Performance Metrics |
+                                       +---------------------+     +---------------------+
+                                                  |
+                                                  v
+                                       +---------------------+
+                                       | Visualization        |
+                                       +---------------------+
+
+
+Data Acquisition:
+- Fetches data from CryptoQuant via CyboTrade API.
+- Sources include exchange netflow, miner-to-exchange flows, exchange reserves, and price OHLCV data.
+
+Data Preprocessing:
+- Cleans and handles missing values.
+- Converts timestamps into a usable format.
+
+
+Feature Engineering:
+- Calculates returns from price data.
+- Computes 20-day rolling volatility.
+- Calculates VWAP (Volume-Weighted Average Price).
+- Calculates Miner Sell Ratio.
+
+Model Training:
+- Uses a Gaussian Hidden Markov Model (HMM).
+- Trains the model on the engineered features: returns, volatility, VWAP, and Miner Sell Ratio.
+
+Trading Signals:
+- Predicts hidden states using the trained HMM.
+- Maps hidden states to trading signals (Buy, Sell, Hold).
+
+Backtesting:
+- Simulates trading based on the generated signals.
+- Incorporates a trading fee of 0.06% per trade.
+- Tracks portfolio value over time.
+
+Performance Metrics:
+- Calculates Sharpe Ratio and Maximum Drawdown to assess strategy performance.
+
+Visualization:
+- Plots the portfolio value over time for visual analysis.
